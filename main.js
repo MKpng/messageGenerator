@@ -35,5 +35,4 @@ const games = ['The Witcher 3',
 const possibilityResult = possibilityRandom(possibility);
 const verbResult = verbRandom(verb);
 const gameResult = gameRandom(games);
-
 console.log(generator(possibilityResult, verbResult, gameResult));
